@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Title from './components/Title';
 
 class App extends Component {
   render() {
@@ -8,11 +9,15 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to Codaisseur</h2>
+          <h1 className="App-title">Welcome to Codaisseur</h1>
         </div>
-        <p className="App-intro">
+        <main>
+          <Title />
+        </main>
+        {/* <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        </p> */}
+        
       </div>
     );
   }
