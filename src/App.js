@@ -12,12 +12,8 @@ class App extends Component {
           <h1 className="App-title">Welcome to Codaisseur</h1>
         </div>
         <main>
-          <Title />
-        </main>
-        {/* <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p> */}
-        
+        <Title content="Some Simple Title" />
+        </main>        
       </div>
     );
   }
